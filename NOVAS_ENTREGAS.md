@@ -1,8 +1,10 @@
-# SIGLES — Escopo original e novas entregas
+# SIGLES — Acordo inicial e pedidos posteriores
 
-Organização atualizada em 23/10/2026. Andamento original conforme revisão de 21/10/2026.
+Organização em três frentes atualizada em 23/10/2026. Andamento das entregas originais conforme revisão de 21/10/2026.
 
-## Frente 1 — Escopo original
+## Frente 1 — Acordo inicial e trabalho incluído
+
+Fonte: Relatório de visita técnica de 20/08/2026.
 
 - **Entrega 1 — Cadastros, usuários e compras:** Em produção. Cadastros, campos, filtros, solicitações e períodos de compras.
 - **Entrega 2 — Disciplinas, relatórios e login:** Em produção. Disciplinas e responsáveis por período, relatórios acadêmicos, arquivos de planos de ensino e login.
@@ -14,9 +16,75 @@ Organização atualizada em 23/10/2026. Andamento original conforme revisão de 
 - **Entrega 7 — Complementos acadêmicos:** Planejada. Complementos de turmas e importação, relatórios de disciplinas e consolidação da carga horária anual e por departamento.
 - **Entrega 8 — Complementos da Agenda, integrações e estudos:** Planejada. Seleção de salas, bloqueio manual, salas duplicadas, reservas para alunos/externos, Conexão LES, históricos, outras importações e estudos previstos.
 
-## Frente 2 — Proposta de novas entregas
+## Frente 2 — Pedidos complementares anteriores — Documento inicial SINGLES.docx
 
-Os adicionais têm numeração própria, de Adicional 1 a Adicional 8. Nenhuma nova etapa foi declarada contratada ou iniciada. Valores e prazos ainda serão apresentados em proposta.
+### Complementar 1 — Gestão das comissões
+
+**Situação:** Proposta de ampliação.
+
+As comissões terão um local para registrar seus representantes, reuniões e documentos.
+
+**Motivo da ampliação:** A gestão de comissões, representantes e reuniões não foi descrita no relatório original de visita.
+
+- Comissões de Graduação, Pós-Graduação, Pesquisa e Extensão.
+- Representantes titular e suplente.
+- Registro das reuniões com data, relatório em texto e anexos.
+- Consulta por comissão e período.
+- Permissões para consultar e manter os registros.
+
+**Na proposta:** Uma estrutura compartilhada atenderá às quatro comissões, em um único pacote. A origem deste pedido é o Documento inicial SINGLES, seção Novos módulos.
+
+**Origem:** Documento inicial SINGLES.docx — Novos módulos; parágrafos 169–175.
+
+**Rastreio:** WI-21.
+
+[Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#comissoes).
+
+### Complementar 2 — Avisos automáticos de vencimento de contratos
+
+**Situação:** Conferir cobertura anterior.
+
+Enviar ao administrador e ao estagiário o aviso de vencimento, com as orientações necessárias.
+
+**Motivo da ampliação:** O envio automático aos destinatários, com mensagem e controle de repetição, acrescenta uma rotina de comunicação ao aviso já exibido no Dashboard.
+
+- Aplicar a antecedência de 45 dias ou o prazo aprovado ao contrato e ao perfil corretos.
+- Definir os destinatários e a mensagem com as providências necessárias.
+- Programar a execução, registrar os resultados e impedir avisos duplicados.
+- Tratar prorrogações, cancelamentos e contratos sem data de término.
+
+**Na proposta:** Orçar somente o envio automático que não estiver coberto pelas aprovações ou pagamentos anteriores. O aviso no Dashboard, o parâmetro por perfil e a configuração de 45 dias permanecem incluídos.
+
+**Origem:** Documento inicial SINGLES.docx — Alterações → Usuário → Para o perfil Estagiários; parágrafo 50.
+
+**Rastreio:** WI-09.
+
+[Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#avisos).
+
+### Complementar 3 — Bloqueio automático de feriados
+
+**Situação:** Conferir cobertura anterior.
+
+Aplicar o calendário de feriados às novas reservas e às recorrências, identificando o motivo do bloqueio.
+
+**Motivo da ampliação:** A manutenção e aplicação automática de um calendário de feriados acrescentam regras próprias à consulta de disponibilidade e ao bloqueio manual.
+
+- Definir os feriados nacionais, estaduais, municipais e acadêmicos aplicáveis.
+- Cadastrar ou importar as datas e definir como o calendário será atualizado.
+- Aplicar o bloqueio à disponibilidade, às novas reservas e às recorrências.
+- Exibir o motivo da indisponibilidade e definir exceções autorizadas.
+- Definir o tratamento dos agendamentos existentes, preservando seus registros.
+
+**Na proposta:** O pedido traz a anotação “FEITO”. Conferir a solução e as aprovações anteriores antes de propor valor. Não incluir novamente as correções de sobreposição nem o bloqueio manual previsto na Entrega 8.
+
+**Origem:** Documento inicial SINGLES.docx — Agenda → Calendário → Nova função: Bloquear dia; parágrafo 133.
+
+**Rastreio:** WI-22.
+
+[Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#feriados).
+
+
+## Frente 3 — Novas entregas — Adiçoes do SIGLES.docx
 
 ### Adicional 1 — Planos de ensino editáveis
 
@@ -36,7 +104,9 @@ Docentes poderão atualizar o plano no próprio SIGLES, com versões por ano e r
 
 **Na proposta:** As funções de anexação, consulta e histórico já entregues serão aproveitadas. A eventual ampliação dos responsáveis por disciplina será conferida separadamente, sem repetir o que já existe.
 
-**Rastreio dos pedidos:** AD-03, AD-04, AD-05, AD-06, AD-07, AD-08, AD-09, AD-10, AD-11, AD-12.
+**Origem:** Adiçoes do SIGLES.docx — Na aba Disciplinas — Planos de Ensino; parágrafos 8–21.
+
+**Rastreio:** AD-03, AD-04, AD-05, AD-06, AD-07, AD-08, AD-09, AD-10, AD-11, AD-12.
 
 [Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#planos).
 
@@ -56,7 +126,9 @@ O aluno poderá apresentar sua solicitação, identificar a disciplina e enviar 
 
 **Na proposta:** Esta é a primeira de três etapas do novo fluxo de Aproveitamento de Estudos. O estudo e detalhamento já previstos na Entrega 8 original permanecem incluídos.
 
-**Rastreio dos pedidos:** AD-13, AD-14, AD-15, AD-16, AD-17.
+**Origem:** Adiçoes do SIGLES.docx — Aproveitamento de Estudos — solicitação e documentos; parágrafos 23–30.
+
+**Rastreio:** AD-13, AD-14, AD-15, AD-16, AD-17.
 
 [Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#aproveitamento).
 
@@ -76,7 +148,9 @@ A secretaria poderá conferir o pedido, solicitar ajustes ao aluno e encaminhar 
 
 **Na proposta:** Continuação do fluxo iniciado no Adicional 2. Cadastro e anexos serão reaproveitados; as devoluções e os reenvios manterão o vínculo com a solicitação.
 
-**Rastreio dos pedidos:** AD-18, AD-19, AD-20, AD-21, AD-22.
+**Origem:** Adiçoes do SIGLES.docx — Aproveitamento de Estudos — triagem e ajustes; parágrafos 31–38.
+
+**Rastreio:** AD-18, AD-19, AD-20, AD-21, AD-22.
 
 [Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#aproveitamento).
 
@@ -97,7 +171,9 @@ O docente emitirá o parecer, e o processo seguirá para o Serviço de Graduaç�
 
 **Na proposta:** A forma de acesso do Serviço de Graduação, os critérios de conclusão e as permissões serão confirmados. O orçamento abrangerá a implementação ampliada que não esteja já contratada.
 
-**Rastreio dos pedidos:** AD-23, AD-24, AD-25, AD-26, AD-27, AD-28, AD-29, AD-30, AD-31, AD-32, AD-33.
+**Origem:** Adiçoes do SIGLES.docx — Aproveitamento de Estudos — parecer e conclusão; parágrafos 39–50.
+
+**Rastreio:** AD-23, AD-24, AD-25, AD-26, AD-27, AD-28, AD-29, AD-30, AD-31, AD-32, AD-33.
 
 [Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#aproveitamento).
 
@@ -118,7 +194,9 @@ O sistema reunirá os dados da defesa, os participantes e a ata correspondente.
 
 **Na proposta:** O documento apresenta formulário e envio de arquivo como alternativas. A escolha será feita antes do orçamento; não são duas implementações obrigatórias.
 
-**Rastreio dos pedidos:** AD-34, AD-35, AD-36, AD-37, AD-38, AD-39, AD-40, AD-41, AD-42.
+**Origem:** Adiçoes do SIGLES.docx — Atas de defesas; parágrafos 51–100.
+
+**Rastreio:** AD-34, AD-35, AD-36, AD-37, AD-38, AD-39, AD-40, AD-41, AD-42.
 
 [Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#atas).
 
@@ -138,54 +216,16 @@ As solicitações de viagens poderão ser recebidas e acompanhadas pelo SIGLES.
 
 **Na proposta:** Os campos e destinatários serão confirmados a partir do formulário de referência. Integrações ou aprovações não descritas serão avaliadas antes da proposta.
 
-**Rastreio dos pedidos:** AD-43, AD-44, AD-45, AD-46, AD-47, AD-48.
+**Origem:** Adiçoes do SIGLES.docx — Viagens Didáticas; parágrafos 102–111.
+
+**Rastreio:** AD-43, AD-44, AD-45, AD-46, AD-47, AD-48.
 
 [Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#viagens).
 
-### Adicional 7 — Gestão das comissões
+## Cobertura e aprovação
 
-**Situação:** Proposta de ampliação.
-
-As comissões terão um local para registrar seus representantes, reuniões e documentos.
-
-**Motivo da ampliação:** A gestão de comissões, representantes e reuniões não foi descrita no relatório original de visita.
-
-- Comissões de Graduação, Pós-Graduação, Pesquisa e Extensão.
-- Representantes titular e suplente.
-- Registro das reuniões com data, relatório em texto e anexos.
-- Consulta por comissão e período.
-- Permissões para consultar e manter os registros.
-
-**Na proposta:** Uma estrutura compartilhada atenderá às quatro comissões, em um único pacote. A origem deste pedido é o Documento inicial SINGLES, seção Novos módulos.
-
-**Rastreio dos pedidos:** WI-21.
-
-[Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#comissoes).
-
-### Adicional 8 — Automações de contratos e feriados
-
-**Situação:** Conferência antes da proposta.
-
-Reunir as duas automações para avaliar e orçar somente o que ainda não estiver coberto por entregas ou aprovações anteriores.
-
-**Motivo da ampliação:** Somente a automação ainda não contemplada nas aprovações anteriores será apresentada para contratação.
-
-- Envio automático dos avisos de vencimento ao administrador e ao estagiário.
-- Execução agendada, mensagem aprovada e controle para evitar avisos repetidos.
-- Calendário de feriados aplicáveis e bloqueio automático nas reservas e recorrências.
-- Tratamento das exceções e das reservas que já existam nas datas.
-
-**Na proposta:** A configuração de 45 dias no Dashboard, as correções de sobreposição e o bloqueio manual previsto no escopo original permanecem incluídos. Feriados têm anotação “FEITO” no documento: conferir essa cobertura antes de cobrar.
-
-**Rastreio dos pedidos:** WI-09, WI-22.
-
-[Consultar os trechos do documento](https://dcadv789.github.io/sigles-cliente/referencias.html#avisos).
-
-## Separação preservada
-
-- A Entrega 8 original continua com os complementos originalmente planejados.
-- Comissões e automações trazem referências ao Documento inicial SINGLES, sem atribuí-las incorretamente ao documento de adições.
-- Os 48 itens AD-01 a AD-48 mantêm seu rastreio: AD-03 a AD-48 foram distribuídos nas novas etapas; AD-01 e AD-02 continuam na conferência de sobreposição com o que já existe.
-- A forma de cadastro de Atas será escolhida antes da proposta.
-- Automações exigem conferência de cobertura anterior; parâmetros já incluídos não serão cobrados novamente.
-- O site do cliente continua sem links para os quadros e arquivos internos.
+- Correções, melhorias ordinárias e complementos já previstos nas entregas originais não são novos adicionais.
+- Comissões e automações foram retiradas da sequência do último Word e realocadas na Frente 2, sem duplicação.
+- AD-03 a AD-48 estão distribuídos uma única vez nas seis novas etapas da Frente 3. AD-01 e AD-02 permanecem na conferência de recursos já existentes.
+- Não há preço, prazo ou contratação novos aprovados nesta apresentação.
+- O site do cliente continua separado do planejamento interno.

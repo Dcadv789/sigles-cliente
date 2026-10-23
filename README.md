@@ -9,6 +9,10 @@ Este site contém somente o material de apresentação ao cliente. Não contém 
 
 O site é público e não exige senha. Os valores e prazos das ampliações serão apresentados em proposta própria.
 
-## Duas frentes de acompanhamento — 23/10/2026
+## Três frentes de acompanhamento — 23/10/2026
 
-A página separa Escopo original (Entregas 1 a 8 e a 3.5) e Proposta de novas entregas (Adicional 1 a 8). O Aproveitamento de Estudos está dividido em três etapas. A oitava adicional reúne automações sujeitas à conferência de cobertura. A sequência não é contratação ou calendário aprovado. Os dados de organização estão em entregas.json e o resumo em NOVAS_ENTREGAS.md; os trechos documentais permanecem em referencias.html.
+1. Acordo inicial: Entregas 1 a 8 e a 3.5.
+2. Pedidos complementares — Documento inicial SINGLES.docx: três pacotes (Comissões; avisos automáticos de contratos; feriados automáticos), sendo as automações condicionadas à conferência de cobertura anterior.
+3. Adiçoes do SIGLES.docx: seis etapas, sem repetir os pacotes da Frente 2.
+
+As fontes e os detalhes permanecem na página. Valores, prazos e contratação dependem de aprovação. Dados em entregas.json; resumo em NOVAS_ENTREGAS.md; transcrições em referencias.html.

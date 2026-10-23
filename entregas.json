@@ -87,7 +87,9 @@
         "Relatórios anuais das alterações e justificativas."
       ],
       "na_proposta": "As funções de anexação, consulta e histórico já entregues serão aproveitadas. A eventual ampliação dos responsáveis por disciplina será conferida separadamente, sem repetir o que já existe.",
-      "justificativa": "O plano passa de arquivo anexado a um documento editável no sistema, com versões e regras próprias."
+      "justificativa": "O plano passa de arquivo anexado a um documento editável no sistema, com versões e regras próprias.",
+      "identificacao": "Adicional 1",
+      "origem_documental": "Adiçoes do SIGLES.docx — Na aba Disciplinas — Planos de Ensino; parágrafos 8–21"
     },
     {
       "numero": 2,
@@ -111,7 +113,9 @@
         "Várias solicitações independentes para um mesmo aluno."
       ],
       "na_proposta": "Esta é a primeira de três etapas do novo fluxo de Aproveitamento de Estudos. O estudo e detalhamento já previstos na Entrega 8 original permanecem incluídos.",
-      "justificativa": "Inicia a implementação do processo detalhado no documento de adições, além do estudo já previsto no escopo original."
+      "justificativa": "Inicia a implementação do processo detalhado no documento de adições, além do estudo já previsto no escopo original.",
+      "identificacao": "Adicional 2",
+      "origem_documental": "Adiçoes do SIGLES.docx — Aproveitamento de Estudos — solicitação e documentos; parágrafos 23–30"
     },
     {
       "numero": 3,
@@ -135,7 +139,9 @@
         "Encaminhamento para análise e notificação ao docente responsável."
       ],
       "na_proposta": "Continuação do fluxo iniciado no Adicional 2. Cadastro e anexos serão reaproveitados; as devoluções e os reenvios manterão o vínculo com a solicitação.",
-      "justificativa": "Acrescenta o fluxo de trabalho da secretaria e as devoluções e notificações do novo processo."
+      "justificativa": "Acrescenta o fluxo de trabalho da secretaria e as devoluções e notificações do novo processo.",
+      "identificacao": "Adicional 3",
+      "origem_documental": "Adiçoes do SIGLES.docx — Aproveitamento de Estudos — triagem e ajustes; parágrafos 31–38"
     },
     {
       "numero": 4,
@@ -166,7 +172,9 @@
         "Guarda dos documentos por pelo menos dois anos, conforme solicitado e relatórios com exportação Excel."
       ],
       "na_proposta": "A forma de acesso do Serviço de Graduação, os critérios de conclusão e as permissões serão confirmados. O orçamento abrangerá a implementação ampliada que não esteja já contratada.",
-      "justificativa": "Conclui o novo processo com pareceres, encaminhamento, guarda documental e relatórios."
+      "justificativa": "Conclui o novo processo com pareceres, encaminhamento, guarda documental e relatórios.",
+      "identificacao": "Adicional 4",
+      "origem_documental": "Adiçoes do SIGLES.docx — Aproveitamento de Estudos — parecer e conclusão; parágrafos 39–50"
     },
     {
       "numero": 5,
@@ -195,7 +203,9 @@
         "Após a inclusão, alteração e exclusão pelo administrador, conforme a regra solicitada."
       ],
       "na_proposta": "O documento apresenta formulário e envio de arquivo como alternativas. A escolha será feita antes do orçamento; não são duas implementações obrigatórias.",
-      "justificativa": "Cria uma rotina específica para o cadastro e a finalização das defesas, solicitada no documento de adições."
+      "justificativa": "Cria uma rotina específica para o cadastro e a finalização das defesas, solicitada no documento de adições.",
+      "identificacao": "Adicional 5",
+      "origem_documental": "Adiçoes do SIGLES.docx — Atas de defesas; parágrafos 51–100"
     },
     {
       "numero": 6,
@@ -220,16 +230,22 @@
         "Relatórios por período e docente, com download de uma solicitação ou do conjunto do período."
       ],
       "na_proposta": "Os campos e destinatários serão confirmados a partir do formulário de referência. Integrações ou aprovações não descritas serão avaliadas antes da proposta.",
-      "justificativa": "Cria o recebimento e acompanhamento de viagens didáticas descrito no documento de adições."
-    },
+      "justificativa": "Cria o recebimento e acompanhamento de viagens didáticas descrito no documento de adições.",
+      "identificacao": "Adicional 6",
+      "origem_documental": "Adiçoes do SIGLES.docx — Viagens Didáticas; parágrafos 102–111"
+    }
+  ],
+  "condicao": "Propostas separadas por origem. Comissões: ampliação identificada. Automações: conferir cobertura anterior. Valores e prazos não aprovados. Não cobrar novamente trabalho já incluído.",
+  "sem_links_para_planejamento_interno": true,
+  "pedidos_complementares": [
     {
-      "numero": 7,
+      "numero": 1,
       "anchor": "comissoes",
       "titulo": "Gestão das comissões",
       "ids": [
         "WI-21"
       ],
-      "fonte": "comissoes",
+      "fonte": "Documento inicial SINGLES.docx — Novos módulos; parágrafos 169–175",
       "status": "Proposta de ampliação",
       "resultado": "As comissões terão um local para registrar seus representantes, reuniões e documentos.",
       "itens": [
@@ -240,29 +256,69 @@
         "Permissões para consultar e manter os registros."
       ],
       "na_proposta": "Uma estrutura compartilhada atenderá às quatro comissões, em um único pacote. A origem deste pedido é o Documento inicial SINGLES, seção Novos módulos.",
-      "justificativa": "A gestão de comissões, representantes e reuniões não foi descrita no relatório original de visita."
+      "justificativa": "A gestão de comissões, representantes e reuniões não foi descrita no relatório original de visita.",
+      "identificacao": "Complementar 1"
     },
     {
-      "numero": 8,
-      "anchor": "automacoes",
-      "titulo": "Automações de contratos e feriados",
+      "numero": 2,
+      "identificacao": "Complementar 2",
+      "anchor": "avisos",
+      "titulo": "Avisos automáticos de vencimento de contratos",
       "ids": [
-        "WI-09",
+        "WI-09"
+      ],
+      "fonte": "Documento inicial SINGLES.docx — Alterações → Usuário → Para o perfil Estagiários; parágrafo 50",
+      "status": "Conferir cobertura anterior",
+      "resultado": "Enviar ao administrador e ao estagiário o aviso de vencimento, com as orientações necessárias.",
+      "justificativa": "O envio automático aos destinatários, com mensagem e controle de repetição, acrescenta uma rotina de comunicação ao aviso já exibido no Dashboard.",
+      "itens": [
+        "Aplicar a antecedência de 45 dias ou o prazo aprovado ao contrato e ao perfil corretos.",
+        "Definir os destinatários e a mensagem com as providências necessárias.",
+        "Programar a execução, registrar os resultados e impedir avisos duplicados.",
+        "Tratar prorrogações, cancelamentos e contratos sem data de término."
+      ],
+      "na_proposta": "Orçar somente o envio automático que não estiver coberto pelas aprovações ou pagamentos anteriores. O aviso no Dashboard, o parâmetro por perfil e a configuração de 45 dias permanecem incluídos."
+    },
+    {
+      "numero": 3,
+      "identificacao": "Complementar 3",
+      "anchor": "feriados",
+      "titulo": "Bloqueio automático de feriados",
+      "ids": [
         "WI-22"
       ],
-      "fonte": null,
-      "status": "Conferência antes da proposta",
-      "resultado": "Reunir as duas automações para avaliar e orçar somente o que ainda não estiver coberto por entregas ou aprovações anteriores.",
+      "fonte": "Documento inicial SINGLES.docx — Agenda → Calendário → Nova função: Bloquear dia; parágrafo 133",
+      "status": "Conferir cobertura anterior",
+      "resultado": "Aplicar o calendário de feriados às novas reservas e às recorrências, identificando o motivo do bloqueio.",
+      "justificativa": "A manutenção e aplicação automática de um calendário de feriados acrescentam regras próprias à consulta de disponibilidade e ao bloqueio manual.",
       "itens": [
-        "Envio automático dos avisos de vencimento ao administrador e ao estagiário.",
-        "Execução agendada, mensagem aprovada e controle para evitar avisos repetidos.",
-        "Calendário de feriados aplicáveis e bloqueio automático nas reservas e recorrências.",
-        "Tratamento das exceções e das reservas que já existam nas datas."
+        "Definir os feriados nacionais, estaduais, municipais e acadêmicos aplicáveis.",
+        "Cadastrar ou importar as datas e definir como o calendário será atualizado.",
+        "Aplicar o bloqueio à disponibilidade, às novas reservas e às recorrências.",
+        "Exibir o motivo da indisponibilidade e definir exceções autorizadas.",
+        "Definir o tratamento dos agendamentos existentes, preservando seus registros."
       ],
-      "na_proposta": "A configuração de 45 dias no Dashboard, as correções de sobreposição e o bloqueio manual previsto no escopo original permanecem incluídos. Feriados têm anotação “FEITO” no documento: conferir essa cobertura antes de cobrar.",
-      "justificativa": "Somente a automação ainda não contemplada nas aprovações anteriores será apresentada para contratação."
+      "na_proposta": "O pedido traz a anotação “FEITO”. Conferir a solução e as aprovações anteriores antes de propor valor. Não incluir novamente as correções de sobreposição nem o bloqueio manual previsto na Entrega 8."
     }
   ],
-  "condicao": "Sequência proposta; valores, prazos e contratação dependem de aprovação. Não alterar os compromissos originais.",
-  "sem_links_para_planejamento_interno": true
+  "frentes": [
+    {
+      "numero": 1,
+      "anchor": "escopo-original",
+      "fonte": "Relatório de visita técnica de 20/08/2026",
+      "conteudo": "escopo_original"
+    },
+    {
+      "numero": 2,
+      "anchor": "pedidos-intermediarios",
+      "fonte": "Documento inicial SINGLES.docx",
+      "conteudo": "pedidos_complementares"
+    },
+    {
+      "numero": 3,
+      "anchor": "novas-entregas",
+      "fonte": "Adiçoes do SIGLES.docx",
+      "conteudo": "entregas_adicionais"
+    }
+  ]
 }
