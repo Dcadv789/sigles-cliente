@@ -1,0 +1,268 @@
+{
+  "atualizado": "23/10/2026",
+  "andamento_original_revisado_em": "21/10/2026",
+  "escopo_original": [
+    {
+      "numero": "1",
+      "tema": "Cadastros, usuários e compras",
+      "situacao": "Em produção",
+      "resumo": "Cadastros, campos, filtros, solicitações e períodos de compras."
+    },
+    {
+      "numero": "2",
+      "tema": "Disciplinas, relatórios e login",
+      "situacao": "Em produção",
+      "resumo": "Disciplinas e responsáveis por período, relatórios acadêmicos, arquivos de planos de ensino e login."
+    },
+    {
+      "numero": "3",
+      "tema": "Ordens de serviço",
+      "situacao": "Em produção",
+      "resumo": "Responsáveis, seguidores, orçamentos, anexos, filtros, estágios e histórico das OS; aniversariantes."
+    },
+    {
+      "numero": "3.5",
+      "tema": "Agenda e proteção das salas",
+      "situacao": "Em produção",
+      "resumo": "Correções urgentes de reservas, recorrências e sobreposições, consulta/edição de eventos, permissões e ajustes de login."
+    },
+    {
+      "numero": "4",
+      "tema": "Cronogramas e padrão das telas",
+      "situacao": "Em homologação",
+      "resumo": "Criação e cópia de cronogramas, importação e exportação Excel (.xlsx), modelo de planilha, filtros e organização visual."
+    },
+    {
+      "numero": "5",
+      "tema": "Usabilidade e acesso",
+      "situacao": "Em preparação",
+      "resumo": "Dashboard, contatos, férias, navegação e ajustes das permissões existentes."
+    },
+    {
+      "numero": "6",
+      "tema": "Fornecedores e operação administrativa",
+      "situacao": "Planejada",
+      "resumo": "Complementos de fornecedores, compras e OS; definição do alcance de Materiais e Almoxarifado."
+    },
+    {
+      "numero": "7",
+      "tema": "Complementos acadêmicos",
+      "situacao": "Planejada",
+      "resumo": "Complementos de turmas e importação, relatórios de disciplinas e consolidação da carga horária anual e por departamento."
+    },
+    {
+      "numero": "8",
+      "tema": "Complementos da Agenda, integrações e estudos",
+      "situacao": "Planejada",
+      "resumo": "Seleção de salas, bloqueio manual, salas duplicadas, reservas para alunos/externos, Conexão LES, históricos, outras importações e estudos previstos."
+    }
+  ],
+  "entregas_adicionais": [
+    {
+      "numero": 1,
+      "anchor": "planos",
+      "titulo": "Planos de ensino editáveis",
+      "ids": [
+        "AD-03",
+        "AD-04",
+        "AD-05",
+        "AD-06",
+        "AD-07",
+        "AD-08",
+        "AD-09",
+        "AD-10",
+        "AD-11",
+        "AD-12"
+      ],
+      "fonte": "planos",
+      "status": "Proposta de ampliação",
+      "resultado": "Docentes poderão atualizar o plano no próprio SIGLES, com versões por ano e regras de atualização.",
+      "itens": [
+        "Edição dos campos do plano de ensino no sistema.",
+        "Cópia para um novo ano, com ano de referência obrigatório.",
+        "Período de atualização e autorização de exceções pelo administrador.",
+        "Consulta de outros planos conforme as permissões definidas.",
+        "Impressão, filtros dos planos alterados e histórico dos anos anteriores.",
+        "Alterações pelos docentes restritas aos anos futuros; administrador com a autorização prevista no documento.",
+        "Relatórios anuais das alterações e justificativas."
+      ],
+      "na_proposta": "As funções de anexação, consulta e histórico já entregues serão aproveitadas. A eventual ampliação dos responsáveis por disciplina será conferida separadamente, sem repetir o que já existe.",
+      "justificativa": "O plano passa de arquivo anexado a um documento editável no sistema, com versões e regras próprias."
+    },
+    {
+      "numero": 2,
+      "anchor": "aproveitamento",
+      "titulo": "Aproveitamento de Estudos — solicitação e documentos",
+      "ids": [
+        "AD-13",
+        "AD-14",
+        "AD-15",
+        "AD-16",
+        "AD-17"
+      ],
+      "fonte": "aproveitamento",
+      "status": "Proposta de ampliação",
+      "resultado": "O aluno poderá apresentar sua solicitação, identificar a disciplina e enviar os documentos necessários.",
+      "itens": [
+        "Acesso e identificação dos alunos que ainda não são usuários do sistema.",
+        "Seleção da disciplina por código e nome.",
+        "Identificação do docente responsável no ano de referência.",
+        "Envio dos documentos em PDF e conferência dos arquivos obrigatórios.",
+        "Várias solicitações independentes para um mesmo aluno."
+      ],
+      "na_proposta": "Esta é a primeira de três etapas do novo fluxo de Aproveitamento de Estudos. O estudo e detalhamento já previstos na Entrega 8 original permanecem incluídos.",
+      "justificativa": "Inicia a implementação do processo detalhado no documento de adições, além do estudo já previsto no escopo original."
+    },
+    {
+      "numero": 3,
+      "anchor": "aproveitamento-triagem",
+      "titulo": "Aproveitamento de Estudos — triagem e ajustes",
+      "ids": [
+        "AD-18",
+        "AD-19",
+        "AD-20",
+        "AD-21",
+        "AD-22"
+      ],
+      "fonte": "aproveitamento",
+      "status": "Proposta de ampliação",
+      "resultado": "A secretaria poderá conferir o pedido, solicitar ajustes ao aluno e encaminhar a documentação ao docente.",
+      "itens": [
+        "Aviso à secretaria sobre as novas solicitações e consulta dos documentos.",
+        "Devolução ao aluno com justificativa.",
+        "Mensagem ao solicitante no e-mail informado no cadastro.",
+        "Correção e reenvio dos documentos pelo aluno.",
+        "Encaminhamento para análise e notificação ao docente responsável."
+      ],
+      "na_proposta": "Continuação do fluxo iniciado no Adicional 2. Cadastro e anexos serão reaproveitados; as devoluções e os reenvios manterão o vínculo com a solicitação.",
+      "justificativa": "Acrescenta o fluxo de trabalho da secretaria e as devoluções e notificações do novo processo."
+    },
+    {
+      "numero": 4,
+      "anchor": "aproveitamento-parecer",
+      "titulo": "Aproveitamento de Estudos — parecer e conclusão",
+      "ids": [
+        "AD-23",
+        "AD-24",
+        "AD-25",
+        "AD-26",
+        "AD-27",
+        "AD-28",
+        "AD-29",
+        "AD-30",
+        "AD-31",
+        "AD-32",
+        "AD-33"
+      ],
+      "fonte": "aproveitamento",
+      "status": "Proposta de ampliação",
+      "resultado": "O docente emitirá o parecer, e o processo seguirá para o Serviço de Graduação, com acompanhamento e relatórios.",
+      "itens": [
+        "Consulta e impressão da documentação pelo docente.",
+        "Opções de parecer solicitadas: decisão, formulário preenchido, arquivo próprio ou texto digitado.",
+        "Devolução para documentos, ajustes ou realização de prova, conforme o pedido.",
+        "Encaminhamento ao Serviço de Graduação; a forma de acesso por link será definida antes da implementação.",
+        "Conclusão e avisos à secretaria e ao solicitante.",
+        "Guarda dos documentos por pelo menos dois anos, conforme solicitado e relatórios com exportação Excel."
+      ],
+      "na_proposta": "A forma de acesso do Serviço de Graduação, os critérios de conclusão e as permissões serão confirmados. O orçamento abrangerá a implementação ampliada que não esteja já contratada.",
+      "justificativa": "Conclui o novo processo com pareceres, encaminhamento, guarda documental e relatórios."
+    },
+    {
+      "numero": 5,
+      "anchor": "atas",
+      "titulo": "Atas de defesa",
+      "ids": [
+        "AD-34",
+        "AD-35",
+        "AD-36",
+        "AD-37",
+        "AD-38",
+        "AD-39",
+        "AD-40",
+        "AD-41",
+        "AD-42"
+      ],
+      "fonte": "atas",
+      "status": "Proposta de ampliação",
+      "resultado": "O sistema reunirá os dados da defesa, os participantes e a ata correspondente.",
+      "itens": [
+        "Escolha do tipo de defesa e do modelo aplicável ao curso.",
+        "Identificação do aluno, do orientador e dos membros da banca.",
+        "Preenchimento em formulário no sistema ou cadastro com envio do arquivo, conforme a alternativa escolhida.",
+        "Impressão, download, inclusão e finalização da ata.",
+        "Permissões de alteração após a inclusão e relatórios por período, aluno, orientador e curso.",
+        "Após a inclusão, alteração e exclusão pelo administrador, conforme a regra solicitada."
+      ],
+      "na_proposta": "O documento apresenta formulário e envio de arquivo como alternativas. A escolha será feita antes do orçamento; não são duas implementações obrigatórias.",
+      "justificativa": "Cria uma rotina específica para o cadastro e a finalização das defesas, solicitada no documento de adições."
+    },
+    {
+      "numero": 6,
+      "anchor": "viagens",
+      "titulo": "Solicitações de viagens didáticas",
+      "ids": [
+        "AD-43",
+        "AD-44",
+        "AD-45",
+        "AD-46",
+        "AD-47",
+        "AD-48"
+      ],
+      "fonte": "viagens",
+      "status": "Proposta de ampliação",
+      "resultado": "As solicitações de viagens poderão ser recebidas e acompanhadas pelo SIGLES.",
+      "itens": [
+        "Formulário baseado no modelo indicado no documento.",
+        "Definição do período de recebimento das solicitações.",
+        "Docente responsável, disciplina e dados de contato.",
+        "Notificação à secretaria a cada solicitação.",
+        "Relatórios por período e docente, com download de uma solicitação ou do conjunto do período."
+      ],
+      "na_proposta": "Os campos e destinatários serão confirmados a partir do formulário de referência. Integrações ou aprovações não descritas serão avaliadas antes da proposta.",
+      "justificativa": "Cria o recebimento e acompanhamento de viagens didáticas descrito no documento de adições."
+    },
+    {
+      "numero": 7,
+      "anchor": "comissoes",
+      "titulo": "Gestão das comissões",
+      "ids": [
+        "WI-21"
+      ],
+      "fonte": "comissoes",
+      "status": "Proposta de ampliação",
+      "resultado": "As comissões terão um local para registrar seus representantes, reuniões e documentos.",
+      "itens": [
+        "Comissões de Graduação, Pós-Graduação, Pesquisa e Extensão.",
+        "Representantes titular e suplente.",
+        "Registro das reuniões com data, relatório em texto e anexos.",
+        "Consulta por comissão e período.",
+        "Permissões para consultar e manter os registros."
+      ],
+      "na_proposta": "Uma estrutura compartilhada atenderá às quatro comissões, em um único pacote. A origem deste pedido é o Documento inicial SINGLES, seção Novos módulos.",
+      "justificativa": "A gestão de comissões, representantes e reuniões não foi descrita no relatório original de visita."
+    },
+    {
+      "numero": 8,
+      "anchor": "automacoes",
+      "titulo": "Automações de contratos e feriados",
+      "ids": [
+        "WI-09",
+        "WI-22"
+      ],
+      "fonte": null,
+      "status": "Conferência antes da proposta",
+      "resultado": "Reunir as duas automações para avaliar e orçar somente o que ainda não estiver coberto por entregas ou aprovações anteriores.",
+      "itens": [
+        "Envio automático dos avisos de vencimento ao administrador e ao estagiário.",
+        "Execução agendada, mensagem aprovada e controle para evitar avisos repetidos.",
+        "Calendário de feriados aplicáveis e bloqueio automático nas reservas e recorrências.",
+        "Tratamento das exceções e das reservas que já existam nas datas."
+      ],
+      "na_proposta": "A configuração de 45 dias no Dashboard, as correções de sobreposição e o bloqueio manual previsto no escopo original permanecem incluídos. Feriados têm anotação “FEITO” no documento: conferir essa cobertura antes de cobrar.",
+      "justificativa": "Somente a automação ainda não contemplada nas aprovações anteriores será apresentada para contratação."
+    }
+  ],
+  "condicao": "Sequência proposta; valores, prazos e contratação dependem de aprovação. Não alterar os compromissos originais.",
+  "sem_links_para_planejamento_interno": true
+}
